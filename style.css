@@ -1,34 +1,26 @@
-/*body {
-  background-image: url('minimalism-code-quote-text-wallp.jpg');
-  font-family: 'consolas';
-  margin: 0;
-  padding: 20px;
+body {
+  background-color: black;
+  background-repeat: no-repeat;
 }
-
 h1 {
-  color: white;
-  font-family: 'consolas';
-  text-align: center;
-}
-
-p {
-  color: white;
+  color: green;
   font-family: 'consolas';
   margin-bottom: 10px;
 }
-
+p {
+  color: green;
+  font-family: 'consolas';
+  margin-bottom: 10px;
+}
 ul {
   list-style-type: none;
   padding: 0;
 }
-
 li {
   margin-bottom: 5px;
 }
-
 a {
-  color: blue;
+  color: orange;
   font-family: 'consolas';
   text-decoration: none;
 }
-*/
