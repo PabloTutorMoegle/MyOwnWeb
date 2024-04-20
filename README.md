@@ -1,2 +1,2 @@
 # MyOwnWeb
-This is my web where you can find all my information
+This is the code of my web where you can find my main information.
