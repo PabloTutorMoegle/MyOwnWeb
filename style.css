@@ -1,14 +1,19 @@
-body {
-  font-family: sans-serif;
+/*body {
+  background-image: url('minimalism-code-quote-text-wallp.jpg');
+  font-family: 'consolas';
   margin: 0;
   padding: 20px;
 }
 
 h1 {
+  color: white;
+  font-family: 'consolas';
   text-align: center;
 }
 
 p {
+  color: white;
+  font-family: 'consolas';
   margin-bottom: 10px;
 }
 
@@ -23,5 +28,7 @@ li {
 
 a {
   color: blue;
+  font-family: 'consolas';
   text-decoration: none;
 }
+*/
