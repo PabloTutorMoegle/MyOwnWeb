@@ -4,26 +4,21 @@ body {
   background-attachment: fixed;
   background-size: 100% 100%;
   text-align: center;
+  margin-top: 170px;
 }
 h1 {
   color: green;
   font-family: 'consolas';
-  margin-bottom: 10px;
 }
 p {
   color: green;
   font-family: 'consolas';
-  margin-bottom: 10px;
 }
 ul {
   list-style-type: none;
   padding: 0;
 }
-li {
-  margin-bottom: 5px;
-}
 a {
   color: orange;
   font-family: 'consolas';
-  text-decoration: none;
 }
