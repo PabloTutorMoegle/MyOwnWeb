@@ -1,10 +1,10 @@
 body {
-  background-image: url('monitor.jpg');
+  background-image: url('monitor.jpeg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
-  text-align: center;
-  margin-top: 170px;
+  margin-top: 150px;
+  margin-left: 200px;
 }
 h1 {
   color: green;
