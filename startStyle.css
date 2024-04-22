@@ -39,5 +39,5 @@ body {
     }
   }
   .clickable-elemt {
-    cursor: pointer;
+    cursor: pointer !important;
   }
