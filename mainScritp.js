@@ -22,12 +22,13 @@ const InstagramText = "Instagram";
 const line4Text = "You can contact me at this email address ---> ";
 const emailText = "pablotutormoegle@gmail.com"; // Assuming this is the email text
 const line5Text = "Thanks.";
-const line6Text = "Back";
+const line6Text = "<---";
 const lineInstrucctions = "You can click on the orange words."
 
 
 // Create an array to store all text content and their corresponding elements
 const lines = [
+  { element: typedLine6, text: line6Text },
   { element: typedLine1, text: line1Text },
   { element: typedLine2, text: line2Text },
   { element: typedLine3, text: line3Text },
@@ -37,8 +38,7 @@ const lines = [
   { element: typedLine4, text: line4Text },
   { element: typedLine4, text: emailText },
   { element: typedLine5, text: line5Text },
-  { element: typedLineInstrucctions, text: lineInstrucctions },
-  { element: typedLine6, text: line6Text }
+  { element: typedLineInstrucctions, text: lineInstrucctions }
 ];
 
 let currentLine = 0;
@@ -65,16 +65,23 @@ function typeLine() {
 typeLine();
 
 typedLineGithub.addEventListener('click', function() {
-    window.location.href = "https://github.com/PabloTutorMoegle";
+  const link = document.createElement('a');
+  link.href = "https://github.com/PabloTutorMoegle";
+  link.target = "_blank";
+  link.click();
   });
 typedLineLinkedIn.addEventListener('click', function() {
-    window.location.href = "https://www.linkedin.com/in/pablo-tutor-moegle/";
+    const link = document.createElement('a');
+    link.href = "https://www.linkedin.com/in/pablo-tutor-moegle/";
+    link.target = "_blank";
+    link.click();
   });
 typedLineInstagram.addEventListener('click', function() {
-    window.location.href = "https://www.instagram.com/pablitoclavito17/";
+    const link = document.createElement('a');
+    link.href = "https://www.instagram.com/pablitoclavito17/";
+    link.target = "_blank";
+    link.click();
   });
 typedLine6.addEventListener('click', function() {
     window.location.href = "./";
   });
-
-  clickableElement.style.cursor = 'pointer';

@@ -25,6 +25,7 @@ a {
   color: orange;
   font-family: 'Courier New';
   font-weight: bold;
+  cursor: pointer !important;
 }
 div{
   color: green;
@@ -46,7 +47,4 @@ div{
   100% {
     opacity: 1;
   }
-}
-.clickable-element {
-  cursor: pointer !important;
 }

@@ -16,5 +16,3 @@ typeWriter();
 typedText.addEventListener('click', function() {
   window.location.href = "./mainView";
 });
-
-clickableElement.style.cursor = 'pointer';
