@@ -74,5 +74,5 @@ typedLineInstagram.addEventListener('click', function() {
     window.location.href = "https://www.instagram.com/pablitoclavito17/";
   });
 typedLine6.addEventListener('click', function() {
-    window.location.href = "indesx.html";
+    window.location.href = "./";
   });

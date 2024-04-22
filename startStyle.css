@@ -38,6 +38,6 @@ body {
       opacity: 1;
     }
   }
-.clickable-element {
+  .clickable-elemt {
     cursor: pointer;
-}
+  }
