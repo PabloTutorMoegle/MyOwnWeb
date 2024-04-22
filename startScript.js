@@ -3,6 +3,8 @@ const blinkingSymbol = document.getElementById('blinkingSymbol');
 const text = "Click START to continue."; // The text to be typed (replace with your full text)
 let i = 0;
 
+clickableElement.style.cursor = 'pointer';
+
 function typeWriter() {
   if (i < text.length) {
     typedText.textContent += text.charAt(i);
