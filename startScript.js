@@ -1,6 +1,6 @@
 const typedText = document.getElementById('typedText');
 const blinkingSymbol = document.getElementById('blinkingSymbol');
-const text = "Click START to continue."; // The text to be typed (replace with your full text)
+const text = "START"; // The text to be typed (replace with your full text)
 let i = 0;
 
 function typeWriter() {
