@@ -12,8 +12,6 @@ const typedLineInstrucctions = document.getElementById('typedLineInstrucctions')
 
 const blinkingSymbol = document.getElementById('blinkingSymbol');
 
-clickableElement.style.cursor = 'pointer';
-
 // Combine all your text content into separate variables
 const line1Text = "Pablo de Vicente-Tutor Moegle";
 const line2Text = "I am a computer engineer student at 'Universitat Politecnica de Cataluña'.";
@@ -78,3 +76,5 @@ typedLineInstagram.addEventListener('click', function() {
 typedLine6.addEventListener('click', function() {
     window.location.href = "./";
   });
+
+  clickableElement.style.cursor = 'pointer';
