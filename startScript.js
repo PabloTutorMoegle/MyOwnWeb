@@ -14,5 +14,5 @@ function typeWriter() {
 typeWriter();
 
 typedText.addEventListener('click', function() {
-  window.location.href = "./mainView";
+  window.location.href = "./mainView"; /* "./mainView" works for github "mainView.html" works for visual */
 });

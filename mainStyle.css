@@ -5,6 +5,7 @@ body {
   background-size: 100% 100%;
   margin-top: 170px;
   margin-left: 220px;
+  max-width: 300px;
 }
 h1 {
   color: green;
