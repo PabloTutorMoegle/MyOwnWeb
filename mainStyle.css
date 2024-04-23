@@ -47,13 +47,13 @@ div{
   }
 }
 .content-container {
-  position: relative; /* Enable relative positioning */
-  top: 75px; /* Move the container down from the top */
-  left: 150px; /* Move the container to the right */
+  position: absolute; /* Enable relative positioning */
+  top: 15%;/* Move the container down from the top */
+  left: 10%; /* Move the container to the right */
   margin-top: -10px; /* Adjust the top margin to match the top offset */
   margin-left: -10px; /* Adjust the left margin to match the left offset */
-  width: 800px; /* Set a width for the content container */
-  height: 400px; /*Set a height for the content container*/
+  width: 65%; /* Set a width for the content container */
+  height: 65%; /*Set a height for the content container*/
   max-width: 100%;
   background-color: black; /* Set a background color for contrast */
   padding: 20px; /* Add some padding for spacing */
