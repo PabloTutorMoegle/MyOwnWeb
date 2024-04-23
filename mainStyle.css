@@ -3,9 +3,6 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
-  margin-top: 120px;
-  margin-left: 220px;
-  max-width: 1000px;
 }
 h1 {
   color: green;
@@ -48,4 +45,25 @@ div{
   100% {
     opacity: 1;
   }
+}
+.content-container {
+  position: relative; /* Enable relative positioning */
+  top: 75px; /* Move the container down from the top */
+  left: 150px; /* Move the container to the right */
+  margin-top: -10px; /* Adjust the top margin to match the top offset */
+  margin-left: -10px; /* Adjust the left margin to match the left offset */
+  width: 800px; /* Set a width for the content container */
+  height: 400px; /*Set a height for the content container*/
+  max-width: 100%;
+  background-color: black; /* Set a background color for contrast */
+  padding: 20px; /* Add some padding for spacing */
+  overflow: hidden;
+  overflow-y: auto;
+}
+.content-container::-webkit-scrollbar {
+  width: 10px; /* Ancho de la barra de desplazamiento */
+  background-color: #888; /* Color de fondo de la barra de desplazamiento */
+}
+.content-container::-webkit-scrollbar-thumb {
+  background-color: rgb(48, 47, 47); /* Color del pulgar de la barra de desplazamiento */
 }
