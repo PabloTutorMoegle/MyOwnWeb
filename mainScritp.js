@@ -83,5 +83,5 @@ typedLineInstagram.addEventListener('click', function() {
     link.click();
   });
 typedLine6.addEventListener('click', function() {
-    window.location.href = "./"; /* "./" works for github "index.html" works for visual*/
+    window.location.href = "index.html"; /* "./" works for github "index.html" works for visual*/
   });
