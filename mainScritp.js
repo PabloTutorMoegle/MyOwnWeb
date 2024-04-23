@@ -89,12 +89,6 @@ typedLineInstagram.addEventListener('click', function() {
   link.target = "_blank";
   link.click();
 });
-typedLineMail.addEventListener('click', function(){
-  const link = document.createElement('a');
-  link.href = "pablotutormoegle@gmail.com";
-  link.target = "_blank";
-  link.click();
-});
 typedLine6.addEventListener('click', function() {
   window.location.href = "./"; /* "./" works for github "index.html" works for visual*/
 });
