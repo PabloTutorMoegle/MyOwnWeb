@@ -3,7 +3,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
-  margin-top: 170px;
+  margin-top: 120px;
   margin-left: 220px;
 }
 h1 {
@@ -39,12 +39,4 @@ a {
     opacity: 1;
   }
 }
-@media (max-width: 768px) {
-  /* Estilos para pantallas con un ancho máximo de 768px (por ejemplo, tablets) */
-  body {
-    font-size: 16px; /* Ajustar el tamaño de fuente para dispositivos móviles */
-  }
-  .navbar {
-    display: none; /* Ocultar la barra de navegación en pantallas pequeñas */
-  }
-}
+
