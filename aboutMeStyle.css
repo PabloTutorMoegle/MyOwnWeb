@@ -20,6 +20,13 @@ p {
     font-weight: bold;
 }
 a {
+    color: orange;
+    font-family: 'Courier New';
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer !important;
+}
+b {
     color: red;
     font-family: 'Courier New';
     font-weight: bold;
