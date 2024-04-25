@@ -19,6 +19,7 @@ a {
   color: green;
   font-family: 'Courier New';
   font-weight: bold;
+  font-size: large;
   text-decoration: none;
 }
 div{
@@ -83,8 +84,8 @@ input[type="text"]:focus{
 }
 #userInput {
   position: absolute;
-  top: 30%;
-  left: 11%;
+  top: 14.5%;
+  left: 13%;
   width: 500px;
   height: 20px;
   background: none;
