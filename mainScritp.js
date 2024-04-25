@@ -24,7 +24,7 @@ const line4Text = "You can contact me at this email address ---> ";
 const emailText = "pablotutormoegle@gmail.com"; 
 const line5Text = "Thanks.";
 const line6Text = "<---";
-const lineInstrucctions = "You can click on the orange words or type here: "
+const lineInstrucctions = "You can click on the orange words."
 
 
 // Create an array to store all text content and their corresponding elements
