@@ -67,7 +67,7 @@ function typeLine() {
 typeLine();
 
 typedLineAboutMe.addEventListener('click', function() {
-  window.location.href = "aboutMe.html";
+  window.location.href = "./aboutMe";
 });
 typedLineGithub.addEventListener('click', function() {
 const link = document.createElement('a');
@@ -88,7 +88,7 @@ typedLineInstagram.addEventListener('click', function() {
   link.click();
 });
 typedLine6.addEventListener('click', function() {
-  window.location.href = "index.html"; /* "./" works for github "index.html" works for visual*/
+  window.location.href = "./"; /* "./" works for github "index.html" works for visual*/
 });
 
 const userInput = document.getElementById('userInput');
@@ -108,7 +108,7 @@ function handleUserInput(event) {
     const triggerText5 = 'help';
 
     if (inputText === triggerText1) {
-      window.location.href = 'aboutMe.html';
+      window.location.href = './aboutMe';
     }
     else if (inputText === triggerText2)
     {

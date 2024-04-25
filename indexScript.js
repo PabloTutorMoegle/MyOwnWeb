@@ -32,7 +32,7 @@ function typeLine() {
 typeLine();
 
 typedText.addEventListener('click', function() {
-  window.location.href = "mainView.html"; /* "./mainView" works for github "mainView.html" works for visual */
+  window.location.href = "./mainView"; /* "./mainView" works for github "mainView.html" works for visual */
 });
 
 const userInput = document.getElementById('userInput');
@@ -47,7 +47,7 @@ function handleUserInput(event) {
     const inputText = userInput.value.toLowerCase().trim();
     const triggerText = 'start';
     if (inputText === triggerText) {
-      window.location.href = 'mainView.html';
+      window.location.href = './mainView';
     } else {
       resultContainer.textContent = 'Try again typing "start".';
       userInput.value = '';
