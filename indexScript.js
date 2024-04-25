@@ -35,23 +35,3 @@ typedText.addEventListener('click', function() {
   window.location.href = "./mainView"; /* "./mainView" works for github "mainView.html" works for visual */
 });
 
-const userInput = document.getElementById('userInput');
-const resultContainer = document.getElementById('resultContainer');
-const inputContainer = document.getElementById('input-container'); // Assuming this is the container element
-
-userInput.addEventListener('keyup', handleUserInput);
-
-function handleUserInput(event) {
-  if (event.keyCode === 13) {
-    event.preventDefault();
-    const inputText = userInput.value.toLowerCase().trim();
-    const triggerText = 'start';
-    if (inputText === triggerText) {
-      window.location.href = './mainView';
-    } else {
-      resultContainer.textContent = 'Try again typing "start".';
-      userInput.value = '';
-      userInput.focus();
-    }
-  }
-}
