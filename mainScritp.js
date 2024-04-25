@@ -12,8 +12,6 @@ const typedLineInstrucctions = document.getElementById('typedLineInstrucctions')
 const typedLineMail = document.getElementById('typedLineMail');
 const typedLineAboutMe = document.getElementById('typedLineAboutMe');
 
-const blinkingSymbol = document.getElementById('blinkingSymbol');
-
 // Combine all your text content into separate variables
 const line1Text = "Pablo de Vicente-Tutor Moegle";
 const line2Text = "I am a computer engineer student.";
@@ -26,7 +24,7 @@ const line4Text = "You can contact me at this email address ---> ";
 const emailText = "pablotutormoegle@gmail.com"; 
 const line5Text = "Thanks.";
 const line6Text = "<---";
-const lineInstrucctions = "You can click on the orange words."
+const lineInstrucctions = "You can click on the orange words or type here: "
 
 
 // Create an array to store all text content and their corresponding elements
@@ -92,3 +90,48 @@ typedLineInstagram.addEventListener('click', function() {
 typedLine6.addEventListener('click', function() {
   window.location.href = "index.html"; /* "./" works for github "index.html" works for visual*/
 });
+
+const userInput = document.getElementById('userInput');
+const resultContainer = document.getElementById('resultContainer');
+const inputContainer = document.getElementById('input-container'); // Assuming this is the container element
+
+userInput.addEventListener('keyup', handleUserInput);
+
+function handleUserInput(event) {
+  if (event.keyCode === 13) {
+    event.preventDefault();
+    const inputText = userInput.value.toLowerCase().trim();
+    const triggerText1 = 'about me';
+    const triggerText2 = 'github';
+    const triggerText3 = 'linkedin';
+    const triggerText4 = 'instagram';
+    const triggerText5 = 'help';
+
+    if (inputText === triggerText1) {
+      window.location.href = 'aboutMe.html';
+    }
+    else if (inputText === triggerText2)
+    {
+      window.location.href = 'https://github.com/PabloTutorMoegle';
+    }
+    else if (inputText === triggerText3)
+    {
+      window.location.href = 'https://www.linkedin.com/in/pablo-tutor-moegle/';
+    }
+    else if (inputText === triggerText4)
+    {
+      window.location.href = 'https://www.instagram.com/pablitoclavito17/';
+    }
+    else if (inputText === triggerText5)
+    {
+      resultContainer.textContent = "Try typing any of the words you can see above in color orange (no captions).";
+      userInput.value = '';
+      userInput.focus();
+    }
+    else {
+      resultContainer.textContent = 'Try to type "help" for some help.';
+      userInput.value = '';
+      userInput.focus();
+    }
+  }
+}

@@ -27,22 +27,6 @@ div{
   font-family: 'Courier New';
   font-weight: bold;
 }
-#blinkingSymbol {
-  color: green;
-  font-size: 30px; 
-  animation: blink 1s infinite;
-}
-@keyframes blink {
-  0% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
 .content-container {
   position: absolute; /* Enable relative positioning */
   top: 15%;/* Move the container down from the top */
