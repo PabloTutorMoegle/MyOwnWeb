@@ -63,3 +63,39 @@ div{
 .content-container::-webkit-scrollbar-thumb {
   background-color: rgb(48, 47, 47); /* Color del pulgar de la barra de desplazamiento */
 }
+input[type="text"]::placeholder {
+  color: green;
+  background-color: transparent;
+  opacity: 0; /* Hide placeholder initially */
+  transition: opacity 0.2s ease; 
+}
+input[type="text"] {
+  border: none; /* Remove border */
+  padding: 0; /* Remove padding */
+}
+input[type="text"]:focus{
+  outline: none;
+  box-shadow: none;
+}
+.input-container {
+  display: flex;
+  margin-bottom: 20px;
+}
+#userInput {
+  position: absolute;
+  top: 30%;
+  left: 11%;
+  width: 500px;
+  height: 20px;
+  background: none;
+  color: green;
+}
+#resultContainer {
+  position: absolute;
+  top: 40%;
+  left: 11%;
+  width: 500px;
+  height: 2 0px;
+  background: none;
+  color: green;
+}
