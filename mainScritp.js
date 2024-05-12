@@ -14,7 +14,7 @@ const typedLineAboutMe = document.getElementById('typedLineAboutMe');
 
 // Combine all your text content into separate variables
 const line1Text = "Pablo de Vicente-Tutor Moegle";
-const line2Text = "I am a computer engineer student.";
+const line2Text = "I am a computer science student.";
 const lineAboutMe = "About me";
 const line3Text = "My sites:";
 const GithubText = "Github";
