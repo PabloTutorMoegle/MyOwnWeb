@@ -83,7 +83,7 @@ typedLineLinkedIn.addEventListener('click', function() {
 });
 typedLineInstagram.addEventListener('click', function() {
   const link = document.createElement('a');
-  link.href = "https://www.instagram.com/pablotutormoegle/";
+  link.href = "https://www.instagram.com/pablo_dev_tutor/";
   link.target = "_blank";
   link.click();
 });
